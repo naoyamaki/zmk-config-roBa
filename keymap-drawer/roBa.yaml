@@ -17,7 +17,7 @@ layers:
   - F
   - G
   - CAPS
-  - ;
+  - '-'
   - H
   - J
   - K
@@ -60,7 +60,7 @@ layers:
   - '3'
   - '4'
   - '5'
-  - '`'
+  - ;
   - '6'
   - '7'
   - '8'
@@ -82,9 +82,9 @@ layers:
   - RWIN
   - RALT
   - RCTRL
-  - '&mkp MB4'
+  - {t: ▽, type: trans}
   - DEL
-  - '&mkp MB5'
+  - {t: ▽, type: trans}
   - ESC
   - {type: held}
   - {t: ▽, type: trans}
@@ -119,16 +119,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '&mkp MB4'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB5'
   - {t: ▽, type: trans}
   - LWIN
   - LALT
   - LCTRL
-  - '&mkp RCLK'
+  - {t: ▽, type: trans}
   - {type: held}
-  - '&mkp LCLK'
+  - {t: ▽, type: trans}
   - ENTER
   - BACKSPACE
   - {t: ▽, type: trans}
