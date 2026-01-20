@@ -80,28 +80,28 @@
 
         LAY0 {
             bindings = <
-&kp Q       &kp W     &kp E      &kp R      &kp T                                  &kp Y            &kp U  &kp I      &kp O    &kp P
-&kp A       &kp S     &kp D      &kp F      &kp G        &kp CAPS       &kp SEMI   &kp H            &kp J  &kp K      &kp L    &kp SQT
-&kp Z       &kp X     &kp C      &kp V      &kp B        &kp LBKT       &kp RBKT   &kp N            &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LWIN    &kp LALT  &kp LCTRL  &mkp RCLK  &lt 2 SPACE  &mkp LCLK      &kp ENTER  &lt 1 BACKSPACE                             &lt 3 BSLH
+&kp Q     &kp W     &kp E      &kp R      &kp T                                  &kp Y            &kp U  &kp I      &kp O    &kp P
+&kp A     &kp S     &kp D      &kp F      &kp G        &kp CAPS       &kp MINUS  &kp H            &kp J  &kp K      &kp L    &kp SQT
+&kp Z     &kp X     &kp C      &kp V      &kp B        &kp LBKT       &kp RBKT   &kp N            &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LWIN  &kp LALT  &kp LCTRL  &mkp RCLK  &lt 2 SPACE  &mkp LCLK      &kp ENTER  &lt 1 BACKSPACE                             &lt 3 BSLH
             >;
         };
 
         LAY1 {
             bindings = <
-&kp F1      &kp F2     &kp F3     &kp F4     &kp F5                           &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&kp N1      &kp N2     &kp N3     &kp N4     &kp N5   &kp GRAVE      &kp N6   &kp N7  &kp N8  &kp N9  &kp N0  &kp F11
-&kp RSHIFT  &kp GRAVE  &kp EQUAL  &kp MINUS  &trans   &trans         &trans   &trans  &trans  &trans  &trans  &kp F12
-&kp RWIN    &kp RALT   &kp RCTRL  &mkp MB4   &kp DEL  &mkp MB5       &kp ESC  &trans                          &trans
+&kp F1      &kp F2     &kp F3     &kp F4     &kp F5                          &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&kp N1      &kp N2     &kp N3     &kp N4     &kp N5   &kp SEMI      &kp N6   &kp N7  &kp N8  &kp N9  &kp N0  &kp F11
+&kp RSHIFT  &kp GRAVE  &kp EQUAL  &kp MINUS  &trans   &trans        &trans   &trans  &trans  &trans  &trans  &kp F12
+&kp RWIN    &kp RALT   &kp RCTRL  &trans     &kp DEL  &trans        &kp ESC  &trans                          &trans
             >;
         };
 
         LAY2 {
             bindings = <
-&kp TAB     &trans    &trans     &trans     &trans                            &trans         &kp C_VOL_DN  &kp UP    &kp C_VOL_UP  &trans
-&kp CAPS    &trans    &trans     &trans     &trans  &trans         &trans     &trans         &kp LEFT      &kp DOWN  &kp RIGHT     &trans
-&kp LSHIFT  &trans    &trans     &trans     &trans  &trans         &trans     &trans         &trans        &trans    &trans        &trans
-&kp LWIN    &kp LALT  &kp LCTRL  &mkp RCLK  &trans  &mkp LCLK      &kp ENTER  &kp BACKSPACE                                        &trans
+&kp TAB     &trans    &trans     &trans  &trans                         &trans         &kp C_VOL_DN  &kp UP    &kp C_VOL_UP  &trans
+&kp CAPS    &trans    &trans     &trans  &trans  &trans      &trans     &trans         &kp LEFT      &kp DOWN  &kp RIGHT     &trans
+&kp LSHIFT  &trans    &trans     &trans  &trans  &trans      &trans     &trans         &mkp MB4      &trans    &mkp MB5      &trans
+&kp LWIN    &kp LALT  &kp LCTRL  &trans  &trans  &trans      &kp ENTER  &kp BACKSPACE                                        &trans
             >;
         };
 
