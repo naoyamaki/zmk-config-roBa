@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - CAPS
+  - ESC
   - '-'
   - H
   - J
@@ -85,7 +85,7 @@ layers:
   - {t: ▽, type: trans}
   - DEL
   - {t: ▽, type: trans}
-  - ESC
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   LAY2:
@@ -179,3 +179,5 @@ layers:
 combos:
 - p: [18, 19]
   k: TAB
+- p: [13, 12]
+  k: CAPS
